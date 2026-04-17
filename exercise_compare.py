@@ -21,6 +21,6 @@ def compare():
     if a == b:
         print(f"{a} es igual a {b}")
     elif a > b:
-        print(f"{a} es mayor a {b}")
+        print(f"{a} es mayor que {b}")
     elif b > a:
-        print(f"{a} es menor a {b}")
+        print(f"{a} es menor que {b}")
