@@ -41,5 +41,5 @@ def discount():
         print(f"Subtotal: {a * b}")
         print("Descuento aplicado: 20%")
         print(f"Monto de descuento: {a * b * 0.2}")
-        print(f"Total final: {(a * b)-(a * b * 0.1)}")
+        print(f"Total final: {(a * b)-(a * b * 0.2)}")
 
