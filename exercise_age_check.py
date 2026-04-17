@@ -23,7 +23,7 @@ def age_check():
 
     if a <= 0 or b <= 0:
         print("Entrada invalida")
-    elif a > b:
+    elif a >= b:
         print("Eres mayor de edad")
-    elif b > a:
+    else:
         print("Eres menor de edad")
