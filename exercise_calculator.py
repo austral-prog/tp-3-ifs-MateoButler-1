@@ -39,4 +39,3 @@ def calculator():
             print("Error: division por cero")
         else:
             print(f"Resultado: {a/b}")
-calculator()
