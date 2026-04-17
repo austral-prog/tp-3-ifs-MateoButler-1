@@ -22,4 +22,21 @@ def calculator():
         Para las entradas "10", "5" y "x", la salida esperada es:
         Operacion invalida
     """
-    pass
+    a = float(input())
+    b = float(input())
+    c = input()
+
+    if c not in ["+","-","*","/"]:
+        print("Operacion invalida")
+    elif c == "+":
+        print(f"Resultado: {a+b}")
+    elif c == "*":
+        print(f"Resultado: {a*b}")
+    elif c == "-":
+        print(f"Resultado: {a-b}")
+    elif c == "/":
+        if b == 0:
+            print("Error: division por cero")
+        else:
+            print(f"Resultado: {a/b}")
+calculator()
